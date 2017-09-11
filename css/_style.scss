@@ -1,0 +1,269 @@
+@font-face {
+    font-family: GOT;
+    src: url(fonts/got.ttf);
+}
+body {
+background-color: rgb(18,24,24);
+
+
+
+
+}
+.clearfix {
+  width: 100%;
+  height: 300px;
+}
+
+
+// LOGIN AND SIGNUP //
+.login-wrapper {
+  width: 50%;
+  margin: 0 auto;
+  @media screen and (max-width: 764px) {
+    width: 100%;
+    }
+  h1 {
+    color: white;
+    font-family: got;
+    font-size: 5em;
+    text-align: center;
+    @media screen and (max-width: 764px) {
+      font-size: 2em;
+      }
+  }
+}
+.login-box  {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.login-form {
+  label {
+    float: left;
+    text-align: right;
+    margin-right: 15px;
+    width: 100px;
+    color: white;
+    font-family: got;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 1.1em;
+  }
+  input {
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 10px;
+  }
+  input:focus {
+    outline: none;
+  }
+  button:focus {
+    outline: none;
+  }
+  button {
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: black;
+    margin-left: 110px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+  }
+  a {
+    float: right;
+    width: 100px;
+    color: white;
+    font-family: got;
+    padding: 5px;
+    font-size: 1.2em;
+  }
+  p {
+    color: white;
+    margin-left: 130px;
+  }
+}
+// LOGIN AND SIGNUP // // LOGIN AND SIGNUP //// LOGIN AND SIGNUP //
+
+.customnav {
+  background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border: none;
+}
+.Nav-li a {
+  color: white;
+}
+.Nav-li a:hover {
+  color: blue;
+}
+
+
+//
+
+
+//FRONTPAGE FRONTPAGE //
+.characters {
+  h1 {
+    color: white;
+    padding: 30px;
+  }
+}
+.character-view {
+  width: 50%;
+  border: 1px solid white;
+  margin: 30px;
+  max-height: 195px;
+  }
+.character-img {
+  img {
+    width: 208px;
+    height: 180px;
+    padding: 10px 5px;
+  }
+}
+.bgstory {
+  color: white;
+  padding: 10px 30px;
+  display: block;
+  overflow: hidden;
+  height: 170px;
+  text-overflow: ellipsis;
+  p {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 170px;
+  }
+  }
+.stats {
+  color: white;
+  padding: 10px;
+}
+
+
+// LINK to create //
+.create {
+  a {
+    float: right;
+    padding: 10px 20px;
+    color: white;
+  }
+}
+
+
+
+// CREATING CHARCATER
+legend {
+  color: white;
+}
+.charactersheet {
+  label {
+    margin-right: 15px;
+    width: 100px;
+    color: white;
+    font-family: got;
+    padding: 10px;
+    margin: 1px 0px;
+    font-size: 1.1em;
+  }
+  h2 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+}
+
+// CHARVIEW // // CHARVIEW // // CHARVIEW // // CHARVIEW //
+.charview-infomation {
+  h1 {
+    color: white;
+    font-family: got;
+
+  }
+  ul, li {
+    color: white;
+    font-family: got;
+    font-size: 1.2em;
+  }
+  p {
+    color: white;
+    font-family: got;
+    font-size: 1em;
+    margin: 10px;
+  }
+  span {
+    font-size: 1.5em;
+  }
+  label {
+    text-align: left;
+    margin-right: 15px;
+    color: white;
+    font-family: got;
+    padding: 10px;
+    margin: 10px 0px;
+  }
+  input {
+    color: black;
+  }
+  textarea{
+    color: black;
+  }
+  button {
+    color: black;
+  }
+  select {
+    color: black;
+  }
+
+}
+.char-stats {
+  h1 {
+    color: white;
+    font-family: got;
+  }
+  table {
+    width: 100%;
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 1px;
+    background-color: black;
+
+  }
+  td, tr, th {
+    padding: 3px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-family: got;
+  }
+  tr {
+    text-transform: uppercase;
+    font-size: 1.2em;
+  }
+  input {
+    color: black;
+  }
+  select {
+    color: black;
+  }
+}
+.charview-img {
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid #f3f3f3;
+  box-shadow: 5px 5px black;
+  margin: 20px;
+  img {
+  max-width: 980px;
+  max-height: 720px;
+  margin: 20px;
+  }
+}
